@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/upload/upload",
+    "pages/index/index",
+    
+    "pages/person/person"
+    
+  ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/note.png",
+        "iconPath": "images/note.png",
+        "pagePath": "pages/upload/upload",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/笔记.png",
+        "iconPath": "images/笔记.png",
+        "pagePath": "pages/index/index",
+        "text": "上传"
+      },
+      {
+        "selectedIconPath": "images/个人.png",
+        "iconPath": "images/个人.png",
+        "pagePath": "pages/person/person",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "邮苑笔记",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
